@@ -1,0 +1,65 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main__colors,
+.main__btn,
+.main__range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    min-height: 100px;
+}
+
+.main__colors {
+    flex-direction: column;
+}
+
+.main input {
+    outline: none;
+    border: none;
+    margin: 5px 0;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main__inputRange {
+    appearance: none;
+    cursor: pointer;
+}
+
+.main button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.main__buttonRandom{
+    width: 200px !important;
+}
